@@ -1,0 +1,81 @@
+.body{
+    width: 1920px;
+
+}
+.maindiv{
+    display: flex;
+}
+.productimage{
+    margin: 100px;
+    margin-left: 150px ;
+
+}
+.productimage img{
+    width: 500px;
+    height: 400px;
+}
+.productimage img:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+.productdetails{
+    margin: 100px;
+    margin-left: 50px;
+}
+.productdetails h1{
+    color: rgb(7, 7, 152);
+}
+.productdetails h2{
+    font-size: 18px;
+    color: rgb(82, 82, 233);
+}
+.productdetails h3{
+    display: inline;
+    padding-inline-end: 20px;
+    color: blueviolet;
+}
+.productdetails h4{
+    text-decoration: line-through;
+    color: grey;
+    display: inline;
+}
+
+
+.size{
+    margin-top: 20px;
+}
+.size p{
+    font-weight: bold;
+}
+.size button{
+    margin-top: 0;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    margin-right: 20px;
+    background-color:white;
+    border-style: dashed;
+    border-color: grey;
+}
+.size button:hover{
+    background-color:rgb(176, 216, 232) ;
+}
+.buybtn{
+    display: flex;
+   
+}
+.buybtn button{
+    margin-top: 50px;
+    margin-right: 20px;
+    height: 45px;
+    width: 200px;
+    background-color: rgb(51, 28, 179);
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+.buybtn button:hover{
+    background-color:rgb(176, 216, 232);
+    color: black;
+}

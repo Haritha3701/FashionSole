@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+}
+
+.maindiv {
+    height: 350vh;
+    width: 100%;
+
+}
+
+.logo {
+    background-color: rgb(29, 28, 28);
+    height: 70px;
+    width: 100%;
+
+}
+
+.logo img {
+    height: 70px;
+}
+.logo a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.logo a:hover{
+    color: skyblue;
+
+}
+
+.bg-image {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    margin-top: 0px;
+
+}
+
+.desc {
+    height: 200px;
+    width: 500px;
+    color: white;
+    padding-left: 1000px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 140px;
+    
+   
+}
+.desc button {
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: skyblue;
+    border: none;
+    border-radius: 50%;
+}
+.desc button:hover{
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+.middiv {
+    height: 80vh;
+    margin-top: 80px;
+}
+
+.middiv h1 {
+    color: rgb(104, 104, 248);
+    margin-top: 100px;
+}
+
+.category {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 50px;
+
+}
+
+.category div {
+    background-color: white;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 35px;
+    box-shadow: 1px 1px 8px;
+    height: 400px;
+    width: 350px;
+
+}
+
+.category img {
+    height: 300px;
+    width: 280px;
+    padding: 20px;
+
+}
+
+.category div:hover {
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+.category a {
+    color: rgb(6, 15, 140);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+.category a:hover {
+    color: rgb(105, 194, 229);
+}
+
+#about{
+    height: 100vh;
+}
+.about-img {
+    height: 100vh;
+    margin-top: 100px;
+}
+.abt{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 200px;
+    margin-left: 50px;
+    width: 390px;
+    font-family: 'Garamond',serif;
+    color:  rgb(6, 15, 140);
+    
+}
+.footerdiv{
+    height: 50vh;
+}
+
+.footerdiv button{
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-top: 200px;
+    margin-right: 15px;
+    background-color: skyblue;
+    color:rgb(6, 15, 140);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    
+}

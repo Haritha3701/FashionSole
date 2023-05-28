@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionSole</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+</head>
+
+<body>
+    <div class="maindiv">
+
+        <div class="headdiv">
+
+            <div class="logo">
+                <img src="{% static '/images/logo.png' %}">
+                <a href="#about">About</a>
+                <a href="">Home</a>
+                
+            </div>
+
+        </div>
+        <form action="{% url 'productspage' %}" >
+        <div class="bg-image" style="background-image:url('/static/images/img1.jpg')">
+            <div class="desc">
+                <h1>If The Shoe Fits,<br> Buy It!</h1>
+                <button type="submit">Shop Now</button>
+            </div>
+        </form>
+        </div>
+
+
+
+        <div class="middiv">
+            <center>
+                <h1>Categories</h1>
+                
+                    <div class="category">
+
+                        <form action="{% url 'productspage' %}"></form>
+                        {% for i in types %}
+                        <a href="product?category={{i.id}}">
+                        <div>
+                            <img src="/media/{{i.catimge}}">
+                    
+                            {{i.type}}
+                    
+                        </div>
+                        </a>
+                        {% endfor %}
+                      
+                    </div>
+               
+            </center>
+        </div>
+        <div id="about">
+            <div class="about-img" style="background-image:url('/static/images/aboutimg1.jpg')">
+                <div class="abt">
+                <p>Here at ‘FashionSole’, we realize that style and prosperity
+                begin with the correct shoes. We likewise understand that effectively
+                finding the size and style to meet your requirements is vital to your
+                web-based shopping knowledge. Since beginning our web-based business 
+                website, we’ve been endeavoring to present to you that perfect 
+                shopping experience.</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+        <div class="footerdiv">
+        <a href="#">
+            <button>Back to Top</button>
+        </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

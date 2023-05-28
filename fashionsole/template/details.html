@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\static\css\details.css">
+</head>
+
+<body>
+    <div class="maindiv">
+       
+        <div class="productimage">
+            <img src="{{i.img.url}}">
+        </div>
+       
+        <div class="productdetails">
+            <h1>{{i.brandname}}</h1>
+            <h2>{{i.productname}}</h2>
+            <h1>₹{{i.discprice}}</h1>
+            <h3>{{i.disc}}%</h3>
+            <h4>₹{{i.price}}</h4>
+            <div class="size">
+                <p>Select Size</p>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+            </div>
+            <div class="buybtn">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
